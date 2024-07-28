@@ -1,9 +1,7 @@
 import React from 'react';
 import {Button, SafeAreaView, StyleSheet, Text} from 'react-native';
 import {NativeStackScreenProps} from 'react-native-screens/lib/typescript/native-stack/types';
-import {NativeComponentType} from 'react-native/Libraries/Utilities/codegenNativeComponent';
-import {RootStackParamList} from './types';
-import {useNavigation} from '@react-navigation/native';
+import {RootStackParamList} from '../types';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Second'>;
 //ekran bileşenlerine geçerli olan props'ları tip güvenliğini sağlamak için kullanılır
